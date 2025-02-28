@@ -1,1 +1,140 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+            background-color: bisque;
+            padding-top: 40px;
+        }
+        form{
+            border: 2px solid black;
+            border-radius: 4px;
+        }
+        h1{
+            text-align: center;
+            color: black;
+            font-family: 'Times New Roman', Times, serif;
+            margin: 40px;
+        }
+        #user{
+            text-align: center;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: larger;
+            margin: 20px;
+        }
+        #password{
+            text-align: center;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: larger;
+        }
+        #fname{
+            text-align: center;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: larger;
+            margin: 20px;
+        }
+        #lname{
+            text-align: center;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: larger;
+            margin: 20px;
+        }
+        #dob{
+            text-align: center;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: larger;
+            margin: 20px;
+        }
+        #gender{
+            text-align: center;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: larger;
+            margin: 20px;
+        }
+        #rpass{
+            text-align: center;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: larger;
+            margin: 20px;
+        }
+        #button{
+            margin: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: large;
+        }
+        #languages label{
+            text-align: center;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: large;
+        }
+        #languages button{
+            margin: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: medium;
+        }
+    </style>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="">
+        <div id="fname">
+            <label>First Name</label>
+            <input type="text" placeholder="Enter first name"><br>
+        </div>
+        <div id="lname">
+            <label>Last Name</label>
+            <input type="text" placeholder="Enter last name"><br>
+        </div>
+        <div id="dob">
+            <label>DOB</label>
+            <input type="date"><br>
+        </div>
+        <div id="gender">
+            <label>Gender</label>
+            <input type="radio" name="lang1" value="Male">
+            <label>Male</label>
+            <input type="radio" name="lang1" value="Female">
+            <label>Female</label>
+        </div>
+        <div id="user">
+            <label>Username</label>
+            <input type="text" placeholder="Enter username"><br>
+        </div>
+        <div id="password">
+            <label>Password</label>
+            <input type="text" placeholder="Enter password"><br>
+        </div>
+        <div id="rpass">
+            <label>Re-enter</label>
+            <input type="text" placeholder="Enter password"><br>
+        </div>
+        <div id="languages">
+            <label>Languages Known</label>
+            <input type="checkbox" name="lang">
+            <label>Java</label>
+            <input type="checkbox" name="lang">
+            <label>C</label>
+            <input type="checkbox" name="lang">
+            <label>C++</label>
+            <input type="checkbox" name="lang">
+            <label>Python</label>
+        </div>
+        <div id="button">
+            <button>Submit</button>
+            <button>Reset</button>
+        </div>
+    </form>
+</body>
+</html>
